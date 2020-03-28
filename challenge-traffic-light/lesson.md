@@ -1,4 +1,4 @@
- # Traffic Light with TaskScheduler
+# Traffic Light with TaskScheduler
 
 This sketch implements a traffic light using the [Arduino TaskScheduler Library](https://github.com/arkhipenko/TaskScheduler/).
 It goes from red to green and back.
@@ -18,4 +18,4 @@ Modify code to add a turn signal (a white LED connected to pin 13):
   <wokwi-led color="white" label="13"></wokwi-led>
 </div>
 
-The turn signal up 3 seconds after green, stays on for 3 seconds, then blinks for 5 seconds together with green (in sync with green), before switching back to yellow. 
+The turn signal up 3 seconds after green, stays on for 3 seconds, then blinks for 5 seconds together with green (in sync with green), before switching back to yellow.
